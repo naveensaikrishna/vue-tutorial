@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://unpkg.com/vue">  </script>
+  </head>
+  <body>
+    <div class="" id="vue-app">
+      <h1> {{title}}</h1>
+      <p>{{greet('Morning')}}</p>
+      <p v-html="link()"> </p>
+      <input type="text" v-bind:value="first_name">
+      <input type="text" :value="last_name">
+    </div>
+
+    <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>
