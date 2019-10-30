@@ -3,7 +3,8 @@ var vm = new Vue({  //options
   data: {
     title: 'Vue Project',
     first_name: "Naveen",
-    last_name: "Sai Krishna"
+    last_name: "Sai Krishna",
+    age:"25"
   },
   methods:{
     greet: function(time){
